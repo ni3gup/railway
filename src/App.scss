@@ -1,0 +1,54 @@
+$theme-colors: (
+  "primary": #f5810c,
+  "danger": #ff4136
+);
+
+@import "~bootstrap/scss/bootstrap";
+
+.footer {
+    background-color: #f5810c;
+    color: #000;
+    text-align: center;
+    padding: 15px;
+}
+
+.pnr-search-form {
+    padding: 15px;
+    background: #721053;
+    width: 100%;
+    height: 30px;
+}
+
+.pnr-section {
+    margin: 16px;
+}
+
+.invalid-pnr {
+    width: 100%;
+    font-size: 80%;
+    color: #ff4136;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 30px;
+    padding-bottom: 35px
+}
+
+.date {
+    background: #ccc; 
+    padding: 10px; 
+    border-radius: 5px;
+    color: #000;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.is-primary {
+    background: #f5810c;
+}
+
+.running-status {
+    background: #f5810c; 
+    color: rgba(0, 0, 0, 0.7)
+}
